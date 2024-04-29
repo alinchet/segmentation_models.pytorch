@@ -15,6 +15,9 @@ Segmentation based on [PyTorch](https://pytorch.org/).**
 [![Python - Version](https://img.shields.io/badge/PYTHON-3.7+-red?style=for-the-badge&logo=python&logoColor=white)](https://pepy.tech/project/segmentation-models-pytorch) 
 
 </div>
+Halo! This is my fork of the repository "segmentation_models.pytorch".
+You can find 2 additional folders. A train folder, that contains the basic scrips you need to run properly a model of the librairy. There is also a "example Mapillary" folder, that contains the code to train on the Mapillary Vistas dataset. 
+Sbatch files are provided. We will see bellow the full pipeline to run something.
 
 The main features of this library are:
 
