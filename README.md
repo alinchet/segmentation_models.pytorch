@@ -16,7 +16,7 @@ Segmentation based on [PyTorch](https://pytorch.org/).**
 
 </div>
 Halo! This is my fork of the repository "segmentation_models.pytorch".
-You can find 2 additional folders. A train folder, that contains the basic scrips you need to run properly a model of the librairy. There is also a "example Mapillary" folder, that contains the code to train on the Mapillary Vistas dataset. 
+You can find 2 additional folders. A train folder, that contains the basic scripts you need to run properly a model of the librairy. There is also a "example Mapillary" folder, that contains the code to train on the Mapillary Vistas dataset. 
 Sbatch files are provided. We will see bellow the full pipeline to run something.
 
 The main features of this library are:
@@ -49,6 +49,10 @@ Visit [Read The Docs Project Page](https://smp.readthedocs.io/) or read followin
  9. [License](#license)
 
 ### ⏳ Quick start <a name="start"></a>
+#### Dataset
+
+This code is buil to run with the dataset structure of Mapillary Vistas.
+If you want to do semantic segmentation (or panoptic) with another dataset, you should adapt the training code so the folder are accessed in 
 
 #### 1. Create your first Segmentation model with SMP
 
